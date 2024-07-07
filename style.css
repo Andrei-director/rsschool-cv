@@ -1,1 +1,40 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bodoni Moda SC";
+    background-color: bisque;
+    margin: 10px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+footer {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
